@@ -5,18 +5,15 @@ android:id="@+id/swipeContainer"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_marginTop="70dp"
-tools:context="com.github.irshulx.servishero.SericesActivity"
+android:layout_height="wrap_content"
+android:layout_marginTop="?attr/actionBarSize"
+tools:context="com.github.irshulx.servishero.activities.ServicesActivity"
 
 tools:showIn="@layout/activity_services">
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="6dp"
-    android:paddingRight="6dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     >
     <!--RecyclerView is a widget google added as part of material design, it's an improved version of the legacy ListView in android.
@@ -26,37 +23,11 @@ tools:showIn="@layout/activity_services">
     compile 'com.android.support:recyclerview-v7:23.0.0'
     -->
 
-    <com.github.irshulx.mindvalleychallenge.libs.RecyclerWithEmptyView
+    <com.github.irshulx.servishero.libs.RecyclerWithEmptyView
         android:id="@+id/rvPins"
-        android:visibility="gone"
-        tools:listitem="@layout/pin_item_layout"
+        tools:listitem="@layout/servis_item_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#f5f5f5"
-        android:id="@+id/list_empty"
-        android:layout_marginTop="70dp"
-        android:orientation="vertical">
-        <ImageView
-            android:layout_width="200dp"
-            android:maxHeight="200dp"
-            android:maxWidth="200dp"
-            android:src="@drawable/empty"
-            android:layout_height="200dp"
-            android:layout_gravity="top|center_horizontal" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Loading your board..."
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/darktext"
-            android:gravity="center" />
-    </LinearLayout>
 </RelativeLayout>
 </android.support.v4.widget.SwipeRefreshLayout>
 
