@@ -8,7 +8,12 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Category {
 
-    @SerializedName("categoryName")
+    public Category(String categoryName, int categoryId){
+        this.categoryName=categoryName;
+        this.categoryId= categoryId;
+    }
+
+    @SerializedName("serviceName")
     @Expose
     private String categoryName;
     @SerializedName("categoryId")
@@ -18,7 +23,7 @@ public class Category {
     /**
      *
      * @return
-     *     The categoryName
+     *     The serviceName
      */
     public String getCategoryName() {
         return categoryName;
@@ -27,7 +32,7 @@ public class Category {
     /**
      *
      * @param categoryName
-     *     The categoryName
+     *     The serviceName
      */
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;

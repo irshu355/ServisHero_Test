@@ -6,12 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.github.irshulx.servishero.R;
-import com.github.irshulx.servishero.models.Category;
 
 import java.util.List;
 
@@ -19,22 +16,17 @@ import java.util.List;
  * Created by mkallingal on 7/21/2016.
  */
 public class ServiceRecyclerAdapter extends RecyclerView.Adapter<ServiceRecyclerAdapter.PinViewHolder> implements View.OnClickListener, View.OnLongClickListener {
-    private List<Category> categories;
+    private List<String> serviceNames;
     private Context _Context;
     private Utilities utilities;
     private int lastPosition = -1;
-    public ServiceRecyclerAdapter(Context _context, List<Category> categories,Utilities utilities){
+
+    public ServiceRecyclerAdapter(Context _context, List<String> serviceNames, Utilities utilities) {
         this._Context= _context;
-        this.categories = categories;
+        this.serviceNames = serviceNames;
         this.utilities=new Utilities(_context);
-        /*
-        *I'm gonna create an array of Album arts i have in my drawables directory.
-        * Please remove this code, after you bring in the AlbumArt in our model as part of the exercise
-        *
-        */
-
-
     }
+
     @Override
     public PinViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         /*this event is fired every time android wants to create a new column to our RecyclerView. We have to tell Android what layout we
@@ -45,21 +37,13 @@ public class ServiceRecyclerAdapter extends RecyclerView.Adapter<ServiceRecycler
     }
     @Override
     public void onBindViewHolder(final PinViewHolder holder, int position) {
-        Category category1 = this.categories.get(position);
-        int totalPics=0;
-        holder.categoryName.setText(category1.getCategoryName());
-        setAnimation(holder.itemView.getRootView(), position);
-        holder.itemView.setTag(category1);
-        if(position%2==0){
-            holder.imgServis.setImageDrawable(holder.itemView.getResources().getDrawable(R.drawable.aircon));
-        }
-        else if(position%2==1){
-            holder.imgServis.setImageDrawable(holder.itemView.getResources().getDrawable(R.drawable.event_management));
-        }
+        String serviceName = this.serviceNames.get(position);
+        holder.serviceName.setText(serviceName);
+        holder.itemView.setTag(serviceName);
     }
     @Override
     public int getItemCount() {
-        return this.categories.size();
+        return this.serviceNames.size();
     }
 
     @Override
@@ -73,28 +57,14 @@ public class ServiceRecyclerAdapter extends RecyclerView.Adapter<ServiceRecycler
         return true;
     }
 
-    private void setAnimation(View viewToAnimate, int position)
-    {
-        // If the bound view wasn't previously displayed on screen, it's animated
-        if (position > lastPosition)
-        {
-            Animation animation = AnimationUtils.loadAnimation(_Context, R.anim.slide_up);
-            viewToAnimate.startAnimation(animation);
-            lastPosition = position;
-        }
-    }
 
     public class PinViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener {
-        public TextView categoryName;
-        public RelativeLayout relativeLayout;
-        public ImageView imgServis;
+        public TextView serviceName;
         public PinViewHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             itemView.setOnLongClickListener(this);
-            categoryName = (TextView)itemView.findViewById(R.id.lblCategory);
-            relativeLayout= (RelativeLayout)itemView.findViewById(R.id.relativeBackground);
-            imgServis= (ImageView) itemView.findViewById(R.id.imgServis);
+            serviceName = (TextView)itemView.findViewById(R.id.lblServisName);
         }
         @Override
         public void onClick(View view) {
