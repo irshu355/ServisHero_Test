@@ -6,29 +6,63 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
+    android:scrollbars="vertical"
 android:layout_marginTop="?attr/actionBarSize"
 tools:context="com.github.irshulx.servishero.activities.ServicesActivity"
 
 tools:showIn="@layout/activity_services">
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     >
-    <!--RecyclerView is a widget google added as part of material design, it's an improved version of the legacy ListView in android.
-    for this to work, we need to add two packages to our packages.config,
-    add the below two lines to your build.gradle
-    compile 'com.android.support:cardview-v7:23.0.0'
-    compile 'com.android.support:recyclerview-v7:23.0.0'
-    -->
-
-    <com.github.irshulx.servishero.libs.RecyclerWithEmptyView
-        android:id="@+id/rvPins"
-        tools:listitem="@layout/servis_item_layout"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+        android:id="@+id/tblFeatured"
+        android:stretchColumns="*"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content">
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/larger_text"
+            android:text="ALL CATEGORIES"
+            android:textColor="@color/lighttext"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tblServices"
+        android:stretchColumns="*"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content">
+    </TableLayout>
+
+        <!--android:layout_height="wrap_content" />-->
+</LinearLayout>
+    </ScrollView>
 </android.support.v4.widget.SwipeRefreshLayout>
 
 
