@@ -40,11 +40,23 @@
                     android:layout_alignParentLeft="true"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
-                    android:src="@drawable/logo_tiny"
-                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/btnBack"
+                    android:layout_marginLeft="10dp"
+                    android:singleLine="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/lblServisName"
+                    android:textSize="@dimen/extra_large_text"
+                    android:textColor="@color/darkertext"
+                    android:textStyle="bold"
                     android:layout_height="wrap_content" />
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:src="@drawable/logo_tiny"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:layout_height="wrap_content" />-->
 
             </RelativeLayout>
 

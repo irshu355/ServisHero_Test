@@ -39,50 +39,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="CategoriesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_bar_services.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_services.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5588236">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
-                <element signature="e#2341#2360#0" expanded="true" />
+                <element signature="e#1842#1909#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_splash_screen.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="ServiceRecyclerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1764708">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="110" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="110" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="QuestionsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="110" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="62" />
+              <folding>
+                <element signature="e#1286#1435#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#2188#2229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2787#3039#0" expanded="true" />
+                <element signature="e#3038#3039#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,20 +103,30 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SplashScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servis_item_layout.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/servis_item_layout.xml">
+      <file leaf-file-name="content_questions.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16771753">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.3502538">
+              <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -116,41 +138,20 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="46" />
-              <folding />
+            <state vertical-scroll-proportion="-16.852942">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="e#2224#2249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content_questions.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.441176">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5588236">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="push_out_left.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/push_out_left.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -162,8 +163,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -1766,7 +1767,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/toolbar_services.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_serices.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_services.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector_tb.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/models/QuestionSet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/models/Question.java" />
@@ -1777,17 +1777,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/radio_button.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/featured_services.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/featured_two_columns.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_services.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_pins_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_pins.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_categories.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_questions.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_services.xml" />
@@ -1795,6 +1789,21 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SplashScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/servis_item_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_right_in.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_right_out.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/pull_in_left.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/pull_in_right.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/push_out_left.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/push_out_right.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_questions.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml" />
       </list>
     </option>
   </component>
@@ -1887,6 +1896,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anim" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServisHero" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -1954,7 +1981,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/models" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="FBAZCY145360" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_Wear_Round_API_23" />
-    <property name="SearchEverywhereHistoryKey" value="item&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;mani&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;Sty&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/styles.xml&#10;manifes&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;sty&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/styles.xml&#10;buil&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/build.gradle&#10;content_questions&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/content_questions.xml&#10;colors&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/colors.xml&#10;app&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/app_bar_services.xml&#10;featured_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/featured_services.xml&#10;featured_two_columns&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/featured_two_columns.xml&#10;strings.&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/strings.xml&#10;string.&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/strings.xml&#10;ServicesA&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;Cate&#9;PSI&#9;JAVA://com.github.irshulx.servishero.activities.CategoriesActivity&#10;Activity&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;colo&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/colors.xml&#10;activity_qu&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_questions.xml&#10;activity_&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_categories.xml&#10;ques&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/question_item.xml&#10;Ac&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;SuperA&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java&#10;Super&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java&#10;manife&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;menu&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/menu/menu_serices.xml&#10;app_bar_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/app_bar_services.xml&#10;servis_item_layout&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;content_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/content_services.xml&#10;dim&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/dimens.xml&#10;servis&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;activity_pins_drawer&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/menu/activity_pins_drawer.xml&#10;activity_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_services.xml&#10;Adapter&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java" />
+    <property name="SearchEverywhereHistoryKey" value="content&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/content_questions.xml&#10;activity_q&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_questions.xml&#10;Ada&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java&#10;Super&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java&#10;Ques&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java&#10;Cate&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java&#10;SuperA&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java&#10;item&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;mani&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;Sty&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/styles.xml&#10;manifes&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;sty&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/styles.xml&#10;buil&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/build.gradle&#10;content_questions&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/content_questions.xml&#10;colors&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/colors.xml&#10;app&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/app_bar_services.xml&#10;featured_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/featured_services.xml&#10;featured_two_columns&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/featured_two_columns.xml&#10;strings.&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/strings.xml&#10;string.&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/strings.xml&#10;ServicesA&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;Activity&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;colo&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/colors.xml&#10;activity_qu&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_questions.xml&#10;activity_&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_categories.xml&#10;ques&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/question_item.xml&#10;Ac&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java&#10;manife&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/AndroidManifest.xml&#10;menu&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/menu/menu_serices.xml&#10;app_bar_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/app_bar_services.xml&#10;servis_item_layout&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;content_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/content_services.xml&#10;dim&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/values/dimens.xml&#10;servis&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/servis_item_layout.xml&#10;activity_pins_drawer&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/menu/activity_pins_drawer.xml&#10;activity_services&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/res/layout/activity_services.xml&#10;Adapter&#9;FILE&#9;file://D:/Stuff/glide/ServisHero/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2144,7 +2171,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.54501605" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69302326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.69302326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2234,13 +2261,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java</url>
-          <line>45</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java</url>
-          <line>54</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -2256,106 +2283,18 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_services.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#2787#2961#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#4268#4461#0" expanded="true" />
-            <element signature="e#4460#4461#0" expanded="true" />
-            <element signature="e#5588#5761#0" expanded="true" />
-            <element signature="e#5760#5761#0" expanded="true" />
-            <element signature="e#7437#7630#0" expanded="true" />
-            <element signature="e#7629#7630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_services.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#2787#2961#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#4268#4461#0" expanded="true" />
-            <element signature="e#4460#4461#0" expanded="true" />
-            <element signature="e#5588#5761#0" expanded="true" />
-            <element signature="e#5760#5761#0" expanded="true" />
-            <element signature="e#7437#7630#0" expanded="true" />
-            <element signature="e#7629#7630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_services.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/libs/RecyclerWithEmptyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5586457">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2462,6 +2401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2483,14 +2423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2522,18 +2454,6 @@
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding>
             <element signature="e#1317#1342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3109#3160#0" expanded="false" />
-            <element signature="e#3485#3536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2576,53 +2496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="38" selection-end-column="11" />
-          <folding>
-            <element signature="e#1286#1435#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#2787#2961#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#4268#4461#0" expanded="true" />
-            <element signature="e#4460#4461#0" expanded="true" />
-            <element signature="e#5588#5761#0" expanded="true" />
-            <element signature="e#5760#5761#0" expanded="true" />
-            <element signature="e#7437#7630#0" expanded="true" />
-            <element signature="e#7629#7630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_categories.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2660,28 +2533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_questions.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.441176">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -2734,21 +2585,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SplashScreenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/servis_item_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16771753">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.323529">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/slide_right_out.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/slide_right_in.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/pull_in_left.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/pull_in_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/push_out_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/push_out_left.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SuperActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/CategoriesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="e#1842#1909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/SplashScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/QuestionsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="62" />
+          <folding>
+            <element signature="e#1286#1435#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#2188#2229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_questions.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.852942">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="e#2224#2249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/utilities/ServiceRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="110" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/irshulx/servishero/activities/ServicesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2787#3039#0" expanded="true" />
+            <element signature="e#3038#3039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_questions.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3502538">
+          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
           <folding />
         </state>
       </provider>

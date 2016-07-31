@@ -37,10 +37,31 @@ public class QuestionsActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+        String servis= getIntent().getStringExtra("servis");
+        if(servis!=null){
+            ((TextView)toolbar.findViewById(R.id.lblServisName)).setText(servis);
+        }
+
         utilities =new Utilities(QuestionsActivity.this);
         initiateQuestionSet();
+        overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
+    }
+
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
+    }
+
 
     private void initiateQuestionSet() {
         String questions= getResources().getString(R.string.aircon);

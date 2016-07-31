@@ -74,7 +74,7 @@ public class ServicesActivity extends SuperActivity {
             child_layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    proceedToQuestions();
+                    proceedToQuestions(((TextView)child_layout.findViewById(R.id.lblServisName)).getText().toString());
                 }
             });
             layout.addView(child_layout);
@@ -144,11 +144,11 @@ public class ServicesActivity extends SuperActivity {
         startActivity(intent);
     }
 
-    private void proceedToQuestions() {
+    private void proceedToQuestions(String s) {
         Intent intent= new Intent(ServicesActivity.this,QuestionsActivity.class);
+        intent.putExtra("servis", s);
         startActivity(intent);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

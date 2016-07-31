@@ -71,7 +71,9 @@ public class ServiceRecyclerAdapter extends RecyclerView.Adapter<ServiceRecycler
         @Override
         public void onClick(View view) {
             Intent intent=new Intent(_Context, QuestionsActivity.class);
+            intent.putExtra("servis", ((TextView)view.findViewById(R.id.lblServisName)).getText().toString());
             view.getContext().startActivity(intent);
+
             // Toast.makeText(view.getContext(), "Clicked Position = " + getPosition(), Toast.LENGTH_SHORT).show();
             //   Intent intent = new Intent(_Context, DetialsActivity.class);
             // intent.putExtra("AlbumId", ((TextView)view.findViewById(R.id.lblAlbumId)).getText().toString());

@@ -32,7 +32,22 @@ public class CategoriesActivity extends AppCompatActivity {
         });
         utilities =new Utilities(CategoriesActivity.this);
         initializeServices();
+        overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
+    }
+
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
     }
 
     private void initializeServices() {

@@ -53,9 +53,10 @@ public class SuperActivity extends AppCompatActivity implements NavigationView.O
         drawer.setDrawerListener(toggle);
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setItemIconTintList(null);
         View headerView= navigationView.getHeaderView(0);
         navigationView.setNavigationItemSelectedListener(this);
-        overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
+        overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
     }
 
     @Override
@@ -66,6 +67,7 @@ public class SuperActivity extends AppCompatActivity implements NavigationView.O
         } else {
             super.onBackPressed();
         }
+        overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
     }
 
 
