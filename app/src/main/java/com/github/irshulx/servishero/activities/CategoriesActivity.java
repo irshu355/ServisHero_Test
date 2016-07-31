@@ -24,7 +24,12 @@ public class CategoriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_categories);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        toolbar.findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
         utilities =new Utilities(CategoriesActivity.this);
         initializeServices();
 

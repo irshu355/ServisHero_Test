@@ -4,32 +4,38 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:icon="@drawable/ic_control_point_white_24dp"
+            android:title="New Job" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:icon="@drawable/ic_widgets_white_24dp"
+            android:title="Job Requests" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:icon="@drawable/ic_local_post_office_white_24dp"
+            android:title="Inbox" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:icon="@drawable/ic_mood_white_24dp"
+            android:title="Rate Us" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_settings"
+                android:menuCategory="secondary"
+                android:title="Settings" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:menuCategory="secondary"
+                android:title="Add Referral Code" />
+
+            android:title="Settings" />
+            <item
+                android:id="@+id/nav_share"
+                android:menuCategory="secondary"
+                android:title="Share" />
         </menu>
     </item>
 

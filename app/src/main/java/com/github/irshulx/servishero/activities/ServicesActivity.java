@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -73,12 +74,14 @@ public class ServicesActivity extends SuperActivity {
             child_layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    proceedToServices();
+                    proceedToQuestions();
                 }
             });
             layout.addView(child_layout);
         }
     }
+
+
 
     private void InitializeFeaturedViews(List<Service>services) {
         final TableLayout layout = (TableLayout)findViewById(R.id.tblFeatured);
@@ -86,23 +89,9 @@ public class ServicesActivity extends SuperActivity {
         LayoutInflater inflater = LayoutInflater.from(ServicesActivity.this);
         List<Category> categories= utilities.getCategories(services);
         for(int i=0;i<categories.size();i++){
-            if((categories.size()-i)<=1){
-                TableRow twoColumns=(TableRow) inflater.inflate(R.layout.featured_two_columns, layout, false);
-               LinearLayout view= (LinearLayout) twoColumns.getChildAt(categories.size()-i);
-                ((TextView)view.findViewById(R.id.lblCategory)).setText(categories.get(i).getCategoryName());
-                if(i%2==0){
-                    ((ImageView) view.findViewById(R.id.imgServis)).setImageDrawable(getResources().getDrawable(R.drawable.aircon));
-                }
-                else if(i%2==1){
-                    ((ImageView) view.findViewById(R.id.imgServis)).setImageDrawable(getResources().getDrawable(R.drawable.event_management));
-                }
-                view.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        proceedToServices();
-                    }
-                });
-                layout.addView(twoColumns);
+            if(((categories.size()-1)-i)<=1){
+                generateTwoColumns(inflater,layout, categories.subList(i ,categories.size()));
+                break;
             }else{
                 final View child_layout = inflater.inflate(R.layout.featured_services, layout, false);
                 ((TextView)child_layout.findViewById(R.id.lblCategory)).setText(categories.get(i).getCategoryName());
@@ -112,7 +101,7 @@ public class ServicesActivity extends SuperActivity {
                 else if(i%2==1){
                     ((ImageView) child_layout.findViewById(R.id.imgServis)).setImageDrawable(getResources().getDrawable(R.drawable.event_management));
                 }
-                child_layout.setOnClickListener(new View.OnClickListener() {
+                child_layout.findViewById(R.id.card_view).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         proceedToServices();
@@ -128,10 +117,38 @@ public class ServicesActivity extends SuperActivity {
     }
 
 
+    private void generateTwoColumns(LayoutInflater inflater,TableLayout layout, List<Category> categories){
+        TableRow twoColumns=(TableRow) inflater.inflate(R.layout.featured_two_columns, layout, false);
+        for(int i=0;i<categories.size();i++){
+            LinearLayout view= (LinearLayout) twoColumns.getChildAt(i);
+            ((TextView)view.findViewById(R.id.lblCategory)).setText(categories.get(i).getCategoryName());
+            if(i%2==0){
+                ((ImageView) view.findViewById(R.id.imgServis)).setImageDrawable(getResources().getDrawable(R.drawable.aircon));
+            }
+            else if(i%2==1){
+                ((ImageView) view.findViewById(R.id.imgServis)).setImageDrawable(getResources().getDrawable(R.drawable.event_management));
+            }
+            view.findViewById(R.id.card_view).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    proceedToServices();
+                }
+            });
+        }
+        layout.addView(twoColumns);
+    }
+
+
     private void proceedToServices(){
         Intent intent= new Intent(ServicesActivity.this,CategoriesActivity.class);
         startActivity(intent);
     }
+
+    private void proceedToQuestions() {
+        Intent intent= new Intent(ServicesActivity.this,QuestionsActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

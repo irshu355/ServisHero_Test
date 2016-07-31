@@ -1,5 +1,6 @@
 package com.github.irshulx.servishero.utilities;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.github.irshulx.servishero.R;
+import com.github.irshulx.servishero.activities.QuestionsActivity;
 
 import java.util.List;
 
@@ -68,6 +70,8 @@ public class ServiceRecyclerAdapter extends RecyclerView.Adapter<ServiceRecycler
         }
         @Override
         public void onClick(View view) {
+            Intent intent=new Intent(_Context, QuestionsActivity.class);
+            view.getContext().startActivity(intent);
             // Toast.makeText(view.getContext(), "Clicked Position = " + getPosition(), Toast.LENGTH_SHORT).show();
             //   Intent intent = new Intent(_Context, DetialsActivity.class);
             // intent.putExtra("AlbumId", ((TextView)view.findViewById(R.id.lblAlbumId)).getText().toString());

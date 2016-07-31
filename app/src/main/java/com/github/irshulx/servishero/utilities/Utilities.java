@@ -6,6 +6,7 @@ import android.widget.Toast;
 
 import com.github.irshulx.servishero.R;
 import com.github.irshulx.servishero.models.Category;
+import com.github.irshulx.servishero.models.QuestionSet;
 import com.github.irshulx.servishero.models.Service;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -32,6 +33,12 @@ public class Utilities {
         return  gson.fromJson(serialized, type);
     }
 
+    public QuestionSet deserializeToQuestions(String serialized){
+        Type deserializeType = new TypeToken<QuestionSet>() {
+        }.getType();
+        QuestionSet deserialized = gson.fromJson(serialized, deserializeType);
+        return deserialized;
+    }
 
     public boolean containsCategory(List<Category> categories, String term){
         boolean contains=false;

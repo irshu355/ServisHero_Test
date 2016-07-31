@@ -13,6 +13,12 @@
         <item name="windowNoTitle">false</item>
     </style>
 
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/yellow_darker</item>
+        <item name="colorButtonNormal">@color/yellow</item>
+    </style>
+
+
     <style name="AppTheme.SplashTheme">
         <item name="windowActionBar">false</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

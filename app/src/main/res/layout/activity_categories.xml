@@ -35,7 +35,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/ic_navigate_before_black_24dp"
+                    android:id="@+id/btnBack"
+                    android:src="@drawable/ic_navigate_before_black_36dp"
                     android:layout_alignParentLeft="true"
                     android:layout_height="wrap_content" />
 

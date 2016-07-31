@@ -54,7 +54,6 @@ public class SuperActivity extends AppCompatActivity implements NavigationView.O
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView= navigationView.getHeaderView(0);
-        ((TextView) headerView.findViewById(R.id.drawerTitle)).setText(Html.fromHtml("Entrance challenge done by <b>Muhammed Irshad</b>"));
         navigationView.setNavigationItemSelectedListener(this);
         overridePendingTransition(R.anim.slide_right_in, R.anim.slide_right_out);
     }

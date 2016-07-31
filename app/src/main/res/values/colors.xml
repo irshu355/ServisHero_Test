@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#0d234d</color>
-    <color name="colorAccent">#d02971</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#FECD08</color>
     <item name="blue" type="color">#00ADF4</item>
     <item name="purple" type="color">#FFAA66CC</item>
     <item name="green" type="color">#99CC00</item>
@@ -21,7 +21,8 @@
     <item name="f5f5f5" type="color">#f5f5f5</item>
     <item type="color" name="android_default_primary">#009688</item>
     <color type="color" name="white">#ffffff</color>
-    <color type="color" name="yellow">#FFD72D</color>
+    <color type="color" name="yellow">#FECD08</color>
+    <color type="color" name="yellow_darker">#a38508</color>
     <color name="petron_primary" type="color">#202b68</color>
     <color name="petron_secondary" type="color">#218EDD</color>
     <color name="petron_tertiary" type="color">#EE3124</color>
